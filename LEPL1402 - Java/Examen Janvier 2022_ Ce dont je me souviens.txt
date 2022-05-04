@@ -1,0 +1,38 @@
+Question 1 
+
+QRCODE {
+
+	float[][] data;
+
+	public static boolean equals(Object o);
+	//Vérifier si deux matrices sont égales ou pas. ATTENTION, o est en fait une classe qu'on doit caster avec QRcode pour ensuite prendre o.data. (QRcode autre = (QRcode) o puis autre.data);
+
+	
+	//compare deux tableaux;
+	public boolean compare(boolean[][] array1, boolean[][] array2){
+        for (int i = 0; i < array1.length; i++) {
+            if (!Arrays.equals(array1[i],array2[i]))
+                return false;
+        }
+        return true;
+    }
+}
+
+}
+
+
+Question 2 {
+
+	//Observer avec des voitures qui entrent et qui sortent d'un tunnel
+	//On a un HashMap<Plaque de matriculation (String) et vitesse de la voiture (double)> et une ArrayList<>();
+
+Question 3 {
+
+	//LinkedList avec des valeurs -> bête addition de valeur ATTENTION, on avait une méthode qui arrondissait les points pour nous !!
+	//utiliser des streams pour calculer plus vite (t.join() etc) pas besoin de ExecutorService executor = Executor.newFixedThreadPool(nThreads);
+
+
+L'examen était faisables si je connaissais un peu plus les streams. Il fallait que je sois plus attentif dans la lecture des classes et de leurs variables (Q1) et que je sois plus calé dans les design pattern
+
+
+--> Refaire tous les exos avec Antonin dès février.

@@ -1,0 +1,7 @@
+Créance client ACTIF
+Dette fournisseur PASSIF
+Plus-value de réevaluation PASSIF
+Banque ACTIF
+Vente de produit PRODUIT
+Achat de marchandises ACTIF
+Red actées PASSIF

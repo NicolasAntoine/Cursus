@@ -1,0 +1,4 @@
+Nicolas;10 
+François;2
+Hernan;1
+Antonin;15
